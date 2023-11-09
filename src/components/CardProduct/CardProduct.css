@@ -1,12 +1,29 @@
-.card-product{
-  
+.product-card {
    display: flex;
-flex-direction: row;
-   height: 80vh;
-}
-.card-product img{
-  width: 500px;
-}
-.container-card-product{
-    width: 100%;
-}
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   height: 500px;
+   background-color: #fff;
+   border: 1px solid #ddd;
+   border-radius: 8px;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   width: 80%;
+   overflow: hidden;
+ }
+ 
+ .product-image {
+   height: 300px;
+   
+   background-size: cover;
+   background-position: center;
+   
+ }
+ 
+ .product-details {
+  
+   text-align: center;
+ }
+ 
+
+ 

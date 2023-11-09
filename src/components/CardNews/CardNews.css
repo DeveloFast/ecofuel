@@ -1,0 +1,9 @@
+
+.card-new{
+    display: flex;
+
+}
+
+.image-new-container img{
+    width: 400px;
+}
