@@ -1,0 +1,13 @@
+.container-products{
+    
+    height: 100vh;
+    width: 80%;
+   margin: auto;
+}
+.title-sections{
+color:var(--green);
+font-weight: bold;
+font-size: 48px;
+text-align: center;
+margin: 0  0 24px 0;
+}
