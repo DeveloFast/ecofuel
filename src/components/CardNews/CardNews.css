@@ -1,9 +1,32 @@
 
 .card-new{
     display: flex;
+    overflow: hidden;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 80%;
+
 
 }
 
 .image-new-container img{
-    width: 400px;
+    width: 450px;
+    height: 100%;
+    object-fit: cover;
 }
+.card-content-new{
+    padding: 32px;
+    text-align: center;
+}
+.card-content-new p:nth-child(1){
+    color: var(--green);
+    font-weight: bold;
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 32px;
+    }
+    .reverse{
+        flex-direction: row-reverse;
+    }

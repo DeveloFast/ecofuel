@@ -26,7 +26,7 @@ const products = [
 const Products = () => {
     return ( <>
     <div className="container-products">
-    <h1 className="title">Productos</h1>
+    <h2 className="title-sections">Productos</h2>
         <CardProduct products={products}/>
     </div>
     </> );

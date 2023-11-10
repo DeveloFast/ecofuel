@@ -4,3 +4,10 @@
     width: 95%;
    margin: auto;
 }
+.title-sections{
+color:var(--green);
+font-weight: bold;
+font-size: 48px;
+text-align: center;
+margin: 32px 0;
+}

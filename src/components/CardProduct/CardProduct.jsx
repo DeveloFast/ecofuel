@@ -23,7 +23,7 @@ const CardProduct = ({ products }) => {
             style={{ backgroundImage: `url(${product.image})` }}
           />
           <div className="product-details">
-            <h2>{product.name}</h2>
+            <p>{product.name}</p>
             <p>{product.description}</p>
           </div>
         </div>

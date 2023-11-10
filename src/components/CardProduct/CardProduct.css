@@ -3,26 +3,41 @@
    flex-direction: column;
    align-items: center;
    justify-content: center;
-   height: 500px;
+   height: 600px;
    background-color: #fff;
    border: 1px solid #ddd;
    border-radius: 8px;
    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-   width: 80%;
+   width: 50%;
    overflow: hidden;
  }
  
  .product-image {
-   height: 300px;
-   
+   height: 400px;
+   object-fit: cover;
    background-size: cover;
    background-position: center;
    
  }
  
  .product-details {
+  display: flex;
+  flex-direction: column;
+ padding: 24px;
+
+ text-align: center;
+   gap: 12px;
+   width: 80%;
+   margin: auto;
   
-   text-align: center;
+ }
+ .product-details p:nth-child(1){
+ color: var(--green);
+ font-weight: bold;
+ font-size: 32px;
+ }
+ .product-details p:nth-child(2){
+font-size: 16px;
  }
  
 
