@@ -25,10 +25,10 @@ const products = [
   ];
 const Products = () => {
     return ( <>
-    <div className="container-products">
+    <section className="container-products">
     <h2 className="title-sections">Productos</h2>
         <CardProduct products={products}/>
-    </div>
+    </section>
     </> );
 }
  
