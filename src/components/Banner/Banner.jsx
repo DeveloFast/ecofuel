@@ -1,9 +1,10 @@
 import './Banner.css'
+import banner from "../../assets/banner.jpeg"
 
 const Banner = () => {
     return ( <>
     <div className="container-banner">
-        <h1>Banner</h1>
+       <img src={banner}/>
     </div>
         
     </> );

@@ -2,13 +2,13 @@ import { Element } from "react-scroll";
 import AboutUs from "../AboutUs/AboutUs";
 import News from "../News/News";
 import Products from "../Products/Products";
-import NavBar from "../NavBar/NavBar";
+import "./GeneralSession.css"
 
 
 
 const GeneralSession = () => {
-    return ( <>
-        <NavBar/>
+    return ( <div className="container-general">
+        
        <Element name="Products">
         <Products/>
        </Element>
@@ -18,7 +18,7 @@ const GeneralSession = () => {
         <Element name="About">
         <AboutUs/>
         </Element>
-    </> );
+    </div> );
 }
  
 export default GeneralSession;
