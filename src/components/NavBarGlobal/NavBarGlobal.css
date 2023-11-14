@@ -1,4 +1,4 @@
-.menu-cafe{
+.menu-global{
     width: 100%;
     height: 50px;
     position: fixed;
@@ -6,8 +6,27 @@
     display: flex;
     align-items: center;
     z-index: 4;
+    justify-content: space-evenly;
 }
-.menu-cafe img{
+.logo{
     width: 200px;
     height: 70px;
+}
+.button-direction{
+    width: 60px;
+    height: 50px;
+    margin-left: 600px;
+    border-radius: 50px;
+    background-color: var(--green);
+    color: var(--white);
+}
+.button-home{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+.predeterminado{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
 }
