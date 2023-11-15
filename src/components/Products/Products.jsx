@@ -26,7 +26,7 @@ const products = [
 const Products = () => {
     return ( <>
     <section className="container-products">
-    
+    <h2 className="title-sections">Productos</h2>
         <CardProduct products={products}/>
     </section>
     </> );
